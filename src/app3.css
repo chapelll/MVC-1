@@ -1,0 +1,18 @@
+#app3 {
+    position: relative;
+}
+
+
+#app3 #box{
+    border: 1px solid red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    transition: transform 1.5s;       /* transition才是动画 */
+}
+
+#app3 #box.active{
+    transform: translateX(300px);
+}
